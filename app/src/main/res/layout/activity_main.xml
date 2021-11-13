@@ -21,5 +21,17 @@
         android:layout_height="wrap_content"
         android:text="변수 연습 02" />
 
+    <Button
+        android:id="@+id/btnCondition1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="조건문 연습 01" />
+
+    <Button
+        android:id="@+id/btnCondition2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="조건문 연습 02" />
+
 
 </LinearLayout>
