@@ -62,6 +62,10 @@ class MainActivity : AppCompatActivity() {
             // 2번 구직자 (조건 : 이동시간 30분이내 or 빨리 퇴근)
             val person02OK = (companyADistance <= 30) || companyAWorkEasy
             Log.d("조건문 연습 02",person02OK.toString())
+
+            // 3번 구직자 (조건 : 빨리퇴근)
+            val person03OK = !companyAWorkEasy
+            Log.d("조건문 연습 02",person03OK.toString())
        }
     }
 }
