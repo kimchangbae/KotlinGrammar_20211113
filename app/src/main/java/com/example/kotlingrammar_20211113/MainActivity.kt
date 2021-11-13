@@ -23,5 +23,14 @@ class MainActivity : AppCompatActivity() {
             friendName = "김갑생"
             Log.d("문법연습01","친구 이름은 " + friendName)
         }
+
+        btnVaiable2.setOnClickListener {
+            // 변수 연습 02
+            var myName = "김창배"
+            val myBirthYear = 1993
+            val myHeight = 173.2
+
+            Log.d("변수연습02", myName)
+        }
     }
 }
