@@ -53,18 +53,18 @@ class MainActivity : AppCompatActivity() {
 
             val companyASalary = 3000
             val companyADistance = 50
-            val companyAWorkEasy = true
+            val companyAOffEarly = true
 
             // 1번 구직자 (조건 : 연봉4천이상)
             val person01OK = companyASalary >= 4000
             Log.d("조건문 연습 02",person01OK.toString())
 
             // 2번 구직자 (조건 : 이동시간 30분이내 or 빨리 퇴근)
-            val person02OK = (companyADistance <= 30) || companyAWorkEasy
+            val person02OK = (companyADistance <= 30) || companyAOffEarly
             Log.d("조건문 연습 02",person02OK.toString())
 
             // 3번 구직자 (조건 : 빨리퇴근)
-            val person03OK = !companyAWorkEasy
+            val person03OK = !companyAOffEarly
             Log.d("조건문 연습 02",person03OK.toString())
        }
     }
